@@ -175,9 +175,7 @@ python evaluation/make_figures.py
 ## 💬 Feedback & Contact
 
 hamidreza.farhadi-tolie@warwick.ac.uk
-
-mona.faraji-niri@warwick.ac.uk
-
+h.farhaditolie@gmail.com
 ---
 
 ## 🙏 Acknowledgements
@@ -190,6 +188,3 @@ WMG, University of Warwick, and The Faraday Institution.
 
 Released under the [MIT Licence](LICENSE).
 
----
-
-Made with ❤️ and diffracted X-rays © 2026 Hamidreza Farhadi Tolie
