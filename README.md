@@ -175,7 +175,9 @@ python evaluation/make_figures.py
 ## 💬 Feedback & Contact
 
 hamidreza.farhadi-tolie@warwick.ac.uk
+
 h.farhaditolie@gmail.com
+
 ---
 
 ## 🙏 Acknowledgements
