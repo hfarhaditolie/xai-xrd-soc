@@ -161,11 +161,18 @@ python evaluation/make_figures.py
 ## 📌 Citation
 
 ```bibtex
-@article{farhaditolie2026operandoxrd,
-  title   = {Explainable Deep Learning for Operando X-ray Diffraction Analysis of Lithium-ion Batteries},
-  author  = {Farhadi Tolie, Hamidreza and Menon, Ashok S. and Piper, Louis F. J. and Marco, James and Faraji Niri, Mona},
-  journal = {},
-  year    = {2026}
+@article{FARHADITOLIE2026100922,
+title = {Explainable deep learning for operando X-ray diffraction analysis of lithium-ion batteries},
+journal = {Energy and AI},
+volume = {26},
+pages = {100922},
+year = {2026},
+issn = {2666-5468},
+doi = {https://doi.org/10.1016/j.egyai.2026.100922},
+url = {https://www.sciencedirect.com/science/article/pii/S266654682600248X},
+author = {Hamidreza {Farhadi Tolie} and Ashok S. Menon and Louis F.J. Piper and James Marco and Mona {Faraji Niri}},
+keywords = {Lithium-ion batteries, Operando X-ray diffraction, Explainable deep learning, State of charge estimation, SoC estimation, Grad-CAM, Transfer learning},
+abstract = {Understanding how the physicochemical properties of electrode materials control electrochemical behaviour is central to improving lithium-ion batteries. Operando X-ray diffraction (XRD) offers a direct, non-destructive probe of electrode structural evolution during cycling, yet its practical use is constrained by refinement-based analysis pipelines that scale poorly across diverse chemistries, wide operational parameter spaces, and multi-component cell designs. Here, as a proof-of-concept study on a single lithium-ion single-layer pouch cell, an explainable deep-learning framework is introduced to investigate the relationship between operando 2D XRD patterns and the electrochemical state of the cell. State of charge (SoC) is used as a well-defined electrochemical reference state, and a convolutional neural network, initialised from an image-pretrained backbone, predicts SoC from raw 2D diffraction images without azimuthal integration or explicit crystallographic refinement, achieving R2≈0.99 on a fresh LiNi0.8Mn0.1Co0.1O2–graphite single-layer pouch cell cycled eight times at multiple rates. Rather than treating accuracy as sufficient, Gradient-weighted Class Activation Mapping (Grad-CAM) is embedded within the framework to expose the diffraction regions driving each prediction, and the resulting attributions are quantitatively compared with the expected diffraction changes associated with lithiation and delithiation, providing evidence that the model focuses on physically meaningful structural features rather than serving as a purely predictive black box. Transferability is then investigated directly, with the fresh-trained model found not to transfer to an aged cell, revealing a degradation-induced domain shift not previously documented for XRD-based state estimation, whereas lightweight fine-tuning on limited aged-cell data restores accurate prediction. Attribution maps additionally become less physically coherent at high SoC and under degradation, indicating changes in the structural information available to the model. Collectively, on the single NMC811–graphite cell examined here, these results demonstrate the feasibility of an image-based, refinement-free framework for investigating the relationship between structural evolution and electrochemical state using operando XRD, and indicate how the learned representation changes as the cell ages. The data and source code are available at https://github.com/hfarhaditolie/xai-xrd-soc.}
 }
 ```
 
